@@ -1,4 +1,7 @@
-﻿CREATE TABLE Cliente(
+﻿CREATE DATABASE tienda;
+USE tienda;
+
+CREATE TABLE Cliente(
 	phone INT NOT NULL,
 	nombre VARCHAR(50) NOT NULL,
 	pass VARCHAR(50) NOT NULL,
