@@ -1,5 +1,5 @@
 
-<footer>
+<footer class="bg-light">
     <div class="container-fluid padding">
         <div class="row text-center">
             <div class="col-md-4">
@@ -17,15 +17,15 @@
                 <p>Sabado: 9am - 4pm</p>
             </div>
             <div class="col-md-4">
+                <img src="#" alt="">    
                 <hr class="light">
-                <p>Ciudad, estado, 12395782345</p>
                 <p>Ciudad, estado, 12395782345</p>
                 <p>Ciudad, estado, 12395782345</p>
                 <p>Ciudad, estado, 12395782345</p>
             </div>
             <div class="col-12">
                 <hr class="light">
-                <h5>&copy; w3newbie</h5>
+                <h5>&copy;QuodVis</h5>
             </div>
         </div>
 

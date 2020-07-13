@@ -1,10 +1,12 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "passwordsupersegura";
+
+include 'vars.php';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
+if(!$conn) {
+  echo 'Error: ' . mysql_errno() . ' - ' . mysql_error();
+}
 
 // Check connection
 if ($conn->connect_error) {

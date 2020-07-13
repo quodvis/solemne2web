@@ -1,0 +1,12 @@
+INSERT INTO Cliente(phone,pass) VALUES (56987654321,123456); 
+INSERT INTO Cliente(phone,pass) VALUES (56955555555,123456); 
+INSERT INTO Cliente(phone,pass) VALUES (56911111111,123456); 
+INSERT INTO Cliente(phone,pass) VALUES (56555555555,123456); 
+INSERT INTO Cliente(phone,pass) VALUES (56912345678,123456); 
+INSERT INTO Cliente(phone,pass) VALUES (56922222222,123456); 
+INSERT INTO Producto(nombre, precio,cantidad) VALUES ("Cosa",1000,1);
+INSERT INTO Producto(nombre, precio,cantidad) VALUES ("Cosa2",2000,2); 
+INSERT INTO Producto(nombre, precio,cantidad) VALUES ("Cosa3",3000,3); 
+INSERT INTO Producto(nombre, precio,cantidad) VALUES ("Cosa4",4000,4);
+INSERT INTO Venta(fecha,idProducto,idCliente) VALUES (202001130003,1,56555555555);
+INSERT INTO Venta(fecha,idProducto,idCliente) VALUES (202004130123,2,56987654321);
